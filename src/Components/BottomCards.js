@@ -2,8 +2,7 @@ import React,  {Component} from 'react'
 
 const BottomCards = () => {
     return (
-        <div className="row" style={{marginTop : '10px', marginLeft : '20px', marginRight: '10px'
-         }}>
+        <div className="row">
             <div class="col-sm-4">
                 <div class="card img-fluid" style={{backgroundColor : 'whitesmoke'}}>
                     {/* <img src={require('../Images/llama-1.jpg')} alt='llama-1' /> */}
