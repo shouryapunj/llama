@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <TopNav />
-      <img src={require('./Images/main-llama.jpg')} id="main-llama" alt="main-llama" />
+      <Main />
       <BottomCards />
 
 
