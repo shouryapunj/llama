@@ -1,5 +1,5 @@
 import React , {Component} from 'react'
-// import BottomCards from './BottomCards'
+import BottomCards from './BottomCards'
 import '../Css/Main.css'
 
 class Main extends Component {
@@ -17,9 +17,9 @@ class Main extends Component {
                 </div>
                 <img src={require('../Images/main-llama.jpg')} id="main-llama" alt="main-llama" style={{ }} />
 
-                <div style={{position: "absolute", left: "900px", top :"150px", fontFamily: "Verdana"}}>
-                    {/* <BottomCards /> */}
-                    The llama is a South American relative of the camel.Llamas appear to have originated from the central plains of North America about 40 million years ago. They migrated to South America about 3 million years ago. At the end of the last ice age between 10,000 and 12,000 llama’s became completely extinct in North America.
+                <div className="container" style={{position: "absolute", left: "680px", top :"150px", fontFamily: "Verdana"}}>
+                    <BottomCards />
+                    {/* The llama is a South American relative of the camel.Llamas appear to have originated from the central plains of North America about 40 million years ago. They migrated to South America about 3 million years ago. At the end of the last ice age between 10,000 and 12,000 llama’s became completely extinct in North America.
                     Today llamas live throughout the Americas, Europe and Australia as domesticated livestock.
 
 They prefer mountainous terrain whether mountainous deserts or grasslands.
@@ -34,7 +34,7 @@ They can be divided in two groups according to the length of their fur: short co
 
 Llamas do not have hooves but their feet have soft, leathery pads and two toes with toenails.
 
-Llama has elongated face, large nostrils and long ears that are slightly curved inwardly characteristically known as “banana” shaped.
+Llama has elongated face, large nostrils and long ears that are slightly curved inwardly characteristically known as “banana” shaped. */}
                 </div>
                 
                 

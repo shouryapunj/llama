@@ -2,8 +2,9 @@ import React,  {Component} from 'react'
 
 const BottomCards = () => {
     return (
-        <div className="row">
-            <div class="col-sm-4">
+        <div style={{width: "1100px", position: "absolute"}}>
+        <div className="row" style={{padding : "10px", marginLeft: "100px"}}>
+            <div class="col-sm-6">
                 <div class="card img-fluid" style={{backgroundColor : 'whitesmoke'}}>
                     {/* <img src={require('../Images/llama-1.jpg')} alt='llama-1' /> */}
                     <div class="card-body">
@@ -13,8 +14,21 @@ const BottomCards = () => {
                     </div>
                 </div>
             </div>
-
-            <div class="col-sm-4">
+            <div class="col-sm-6">
+                <div class="card img-fluid" style={{backgroundColor : 'whitesmoke'}}>
+                    {/* <img src={require('../Images/llama-1.jpg')} alt='llama-1' /> */}
+                    <div class="card-body">
+                        <h5 class="card-title">About Me</h5>
+                        <p class="card-text">Hi , I am Shourya Punj. I am pursuing a Masters degree in Computer Science from New Jersey Institute of Technology. Lately I have found ReactJS to be a powerful tool to create dynamic single app applications/websites. This let to me getting enrolled in Udemy React courses and learning how React works.
+                        </p>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="row" style={{padding : "10px", marginLeft: "100px"}}>
+                
+            <div class="col-sm-6">
                 <div class="card" style={{backgroundColor : 'whitesmoke'}}>
                     <div class="card-body">
                         <h5 class="card-title">Current Habitat</h5>
@@ -31,8 +45,21 @@ Llama’s body is covered with wool which can be black, gray, white or brown, wi
                     </div>
                 </div>
             </div>
-
-            <div class="col-sm-4">
+            <div class="col-sm-6">
+                <div class="card img-fluid" style={{backgroundColor : 'whitesmoke'}}>
+                    {/* <img src={require('../Images/llama-1.jpg')} alt='llama-1' /> */}
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">For the same I used Heroku to deploy my webpage as it was easy and fast. I am pretty excited to learn and explore more in the field of front end development
+                        </p>
+                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                    </div>
+                </div>
+            </div>
+            </div>
+        
+            <div className="row" style={{padding : "10px", marginLeft: "100px"}}>
+            <div class="col-sm-6">
                 <div class="card" style={{backgroundColor : 'whitesmoke'}}>
                     <div class="card-body">
                         <h5 class="card-title">Types</h5>
@@ -45,8 +72,9 @@ Llama has elongated face, large nostrils and long ears that are slightly curved 
                     </div>
                 </div>
             </div>
-
+            </div>
         </div>
+        
     )
     
 }
